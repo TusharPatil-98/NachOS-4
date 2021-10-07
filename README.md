@@ -9,7 +9,7 @@ I have just modified few lines from the original project. You can download the O
 Copy the Git repo or the Original extracted tar.gz.
 
 ### Setup: 
-1. Go to directory NachOS-4.1a/code/build.linux
+1. Go to directory NachOS-4/code/build.linux
 2. Run `make depend`
 3. Run `make`
 
