@@ -1,6 +1,7 @@
 # NachOS-4
 
-I have just modified few lines from the original project. You can download the Original One from https://www.u-aizu.ac.jp/~yliu/teaching/os/lab01.html
+I have just modified few lines from the original project. 
+You can download the Original Project from https://www.u-aizu.ac.jp/~yliu/teaching/os/lab01.html
 
 ### Requirements:
 1. gcc >= 5.4.0 
