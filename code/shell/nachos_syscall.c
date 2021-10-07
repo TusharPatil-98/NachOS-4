@@ -23,7 +23,7 @@
 #include <sys/types.h>
 #include <pthread.h>
 
-
+extern int errno;
 
 #ifdef HAVE_CONFIG_H
 #include "config.h"
@@ -130,7 +130,7 @@ int Join(SpaceId id)
 int Create(char *name)
 {
     int fd;
-    fd=open(name, O_TRUNC | O_CREAT |  O_WRONLY);
+    fd=open(name, O_TRUNC | O_CREAT |  O_WRONLY, 0200);
     if (fd>0) {
 	close(fd);
 	return 1;

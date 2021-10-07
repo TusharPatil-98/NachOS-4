@@ -1,6 +1,6 @@
 CC = @CC@
 LD = @CC@
-CFLAGS = @CFLAGS@ @DEFS@ -I@top_srcdir@
+CFLAGS = -pthread @CFLAGS@ @DEFS@ -I@top_srcdir@
 
 all: shell
 
