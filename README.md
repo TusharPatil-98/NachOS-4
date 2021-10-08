@@ -5,7 +5,7 @@ You can download the Original Project from https://www.u-aizu.ac.jp/~yliu/teachi
 
 ### Requirements:
 1. gcc >= 5.4.0 
-2. Tested on Linux 32 bits
+2. Linux 32 bits
 
 Copy the Git repo or the Original extracted tar.gz.
 
